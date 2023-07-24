@@ -1,0 +1,102 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-one {
+  background-color: rgb(28, 28, 226);
+  position: absolute;
+  border-radius: 10%;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*column item'ların yatay yerine dikey olarak hizalanmasını ve yukarıdan aşağıya sıralanmasını sağlar.*/
+  padding-block: 25px;
+  /*blok düzeyindeki elemanların dikey (blok düzeyinde yukarı ve aşağı) yönde iç boşluklarını belirlemek için kullanılır*/
+
+}
+
+.box-one h2 {
+  color: rgb(192, 192, 192);
+  font-weight: bold;
+}
+
+.box-one-mid {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(37, 37, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-one-mid h1 {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.box-one-end h2 {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.box-one-end p {
+  text-align: center;
+  display: flex;
+  color: aliceblue;
+}
+
+.box-two {
+  background-color: rgb(253, 245, 245);
+  position: absolute;
+  border-radius: 10%;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*column item'ların yatay yerine dikey olarak hizalanmasını ve yukarıdan aşağıya sıralanmasını sağlar.*/
+  padding-block: 25px;
+  /*blok düzeyindeki elemanların dikey (blok düzeyinde yukarı ve aşağı) yönde iç boşluklarını belirlemek için kullanılır*/
+  box-shadow: 10px 4px 10px #dad9d9;
+}
+
+.box-two h2 {
+  color: rgb(25, 25, 97);
+  font-weight: bold;
+}
+
+.four-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.box {
+  border-radius: 10%;
+  flex: 1;
+  display: flex;
+  margin: 5px 10px 5px 10px;
+  align-items: center;
+
+}
+
+
+.four-box p {
+  color: rgb(25, 25, 97);
+  font-weight: bold;
+}
+
+.four-box h4 {
+  color: aliceblue;
+}
