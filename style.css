@@ -17,7 +17,6 @@ body {
   /*column item'ların yatay yerine dikey olarak hizalanmasını ve yukarıdan aşağıya sıralanmasını sağlar.*/
   padding-block: 25px;
   /*blok düzeyindeki elemanların dikey (blok düzeyinde yukarı ve aşağı) yönde iç boşluklarını belirlemek için kullanılır*/
-
 }
 
 .box-one h2 {
@@ -91,7 +90,6 @@ body {
 
 }
 
-
 .four-box p {
   color: rgb(25, 25, 97);
   font-weight: bold;
@@ -99,4 +97,14 @@ body {
 
 .four-box h4 {
   color: aliceblue;
+  margin-right: 10px;
+}
+
+.four-box h3{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.four-box img{
+  margin-left: 10px;
 }
