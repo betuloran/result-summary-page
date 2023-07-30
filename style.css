@@ -60,12 +60,13 @@ body {
   left: 62%;
   transform: translate(-50%, -50%);
   width: 370px;
+  height: 430px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   /*column item'ların yatay yerine dikey olarak hizalanmasını ve yukarıdan aşağıya sıralanmasını sağlar.*/
-  padding-block: 25px;
+  padding-block: 18px;
   /*blok düzeyindeki elemanların dikey (blok düzeyinde yukarı ve aşağı) yönde iç boşluklarını belirlemek için kullanılır*/
   box-shadow: 10px 4px 10px #dad9d9;
 }
@@ -78,14 +79,14 @@ body {
 .four-box {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .box {
   border-radius: 10%;
   flex: 1;
   display: flex;
-  margin: 5px 10px 5px 10px;
+  margin-bottom: 10px;
   align-items: center;
 }
 
@@ -99,11 +100,11 @@ body {
   margin-right: 10px;
 }
 
-.four-box h3{
+.four-box h3 {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.four-box img{
+.four-box img {
   margin-left: 10px;
 }
