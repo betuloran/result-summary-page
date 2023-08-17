@@ -5,11 +5,11 @@ body {
 .box-one {
   background-color: rgb(28, 28, 226);
   position: absolute;
-  border-radius: 10%;
+  border-radius: 8%;
   top: 50%;
   left: 38%;
   transform: translate(-50%, -50%);
-  width: 370px;
+  width: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,11 +55,11 @@ body {
 .box-two {
   background-color: rgb(253, 245, 245);
   position: absolute;
-  border-radius: 10%;
+  border-radius: 8%;
   top: 50%;
   left: 62%;
   transform: translate(-50%, -50%);
-  width: 370px;
+  width: 380px;
   height: 430px;
   display: flex;
   justify-content: center;
